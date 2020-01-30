@@ -53,5 +53,4 @@ steps:
       args = parser.parse_args()
       print ('Hello ', args.world)
     arguments: --world Venus
-    arguments: --help
   displayName: 'Run inline script, Hello [World]'
